@@ -11,16 +11,32 @@
             grid-template-columns:repeat(7, 1fr);
             row-gap: 20px;
             column-gap: 10px;
+            /* grid-template-rows: 30px repeat(5, 50px); */
         }
-        .date{
+        .date,.day{
             background-color: aqua;
             border-radius: 7px;
-            
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+            font-size: 1.5em;    
+        }
+        .day{
+            background-color: blueviolet;
+            color: red;
         }
     </style>
 </head>
 <body>
     <div class="calendar">
+        <div class="day">s</div>
+        <div class="day">m</div>
+        <div class="day">t</div>
+        <div class="day">w</div>
+        <div class="day">t</div>
+        <div class="day">f</div>
+        <div class="day">s</div>
         <div class="date">29</div>
         <div class="date">30</div>
         <div class="date">31</div>
